@@ -1,7 +1,7 @@
 # iOS_Study
 
 
-|제목|||
+||||
 |------|--|---|
 |HaulCollectionView|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/893f34a9-4a26-4a5e-bb22-d6eb99121c87" width="200" height="400">|CollectionView와 CollectionView Cell을 활용한 사진 출력|
 |HaulLayout|테스트2|테스트3|
