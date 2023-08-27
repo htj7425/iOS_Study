@@ -9,3 +9,4 @@
 |HaulTableView|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/0d1db7d2-8ecf-49f0-bdc5-868d1907e345" width="200" height="350">|테스트3|
 |HaulTableViewKakao|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/01b546c6-dad4-44fe-bb9a-d2bd307751a1" width="200" height="350">|테스트3|
 |HaulScrollView|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/a8c4461f-019d-4272-90a1-c26f795ad549" width="200" height="350">|테스트3|
+|HaulTabBar|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/5b9632fd-54d3-40e3-ab17-9e7cd1bbe393" width="200" height="350">|테스트3|
