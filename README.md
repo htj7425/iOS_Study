@@ -3,7 +3,7 @@
 
 ||||
 |------|:--:|---|
-|**[UpDownGame](https://github.com/htj7425/iOS_Study/tree/main/Yagom_iOS)**|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/618121ca-1176-42cc-a675-0c6978f209d2" width="350" height="200">|Slider, UIAlert 사용한 UpDownGame <br><br> 게임 패배, 승리시 alert message <br><br> 좌측상단 정보버튼 클릭시 개발자 정보 Modal로 표시 <br><br> 우측 상단 reset 버튼|
+|**[UpDownGame](https://github.com/htj7425/iOS_Study/tree/main/Yagom_iOS)**|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/5f7e5eb6-c1bd-4f75-99f1-d88620c7e1c8" width="350" height="200">|Slider, UIAlert 사용한 UpDownGame <br><br> 게임 패배, 승리시 alert message <br><br> 좌측상단 정보버튼 클릭시 개발자 정보 Modal로 표시 <br><br> 우측 상단 reset 버튼|
 |**[HaulTabBar](https://github.com/htj7425/iOS_Study/tree/main/Haul_iOS/HaulTabBar)**|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/5b9632fd-54d3-40e3-ab17-9e7cd1bbe393" width="200" height="350">|TabBar 사용한 뷰이동 <br><br> 화면이동 할 때 Sliding Animation 효과 <br><br> [화면이동 애니메이션 코드 참고](https://github.com/you6878/HowlTabBarAnim/blob/master/HowlTabBar/AnimUtils.swift)|
 |**[HaulScrollView](https://github.com/htj7425/iOS_Study/tree/main/Haul_iOS/HaulScrollView)**|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/a8c4461f-019d-4272-90a1-c26f795ad549" width="200" height="350">|ScrollView 사용 <br><br> 사진 넘길 때 Sliding Animation 효과|
 |**[HaulTableViewKakao](https://github.com/htj7425/iOS_Study/tree/main/Haul_iOS/HaulTableViewKakao)**|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/01b546c6-dad4-44fe-bb9a-d2bd307751a1" width="200" height="350">|TableView 활용한 카카오톡 친구목록|
