@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5px-h7-ImZ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="autolayout_stackview_tutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="4n6-Ya-TIi">
+                                <rect key="frame" x="69" y="209" width="255" height="435"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="34H-3A-dAj">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="435"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSq-Bz-2yS">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="TgN-b3-Zea"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="1">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s4Z-v2-UsM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgj-9Z-iUX">
+                                                <rect key="frame" x="0.0" y="90" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="zA5-tS-his"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="4">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ej-YE-p4k"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCj-7C-tjO">
+                                                <rect key="frame" x="0.0" y="180" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="oWa-2Y-Rau"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="7">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RC2-Sn-hfX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0n-yG-EAp">
+                                                <rect key="frame" x="0.0" y="270" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="WcR-7l-Awu"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="*">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Is3-rt-f19"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dp2-98-zUg">
+                                                <rect key="frame" x="0.0" y="360" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="Mqn-8F-YoF"/>
+                                                    <constraint firstAttribute="width" constant="75" id="xXe-YF-0gJ"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="93X-4t-TTv">
+                                        <rect key="frame" x="90" y="0.0" width="75" height="435"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJT-Fe-2Of">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="d0z-vC-73N"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="2">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iXL-mO-KTb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlb-uy-hmf">
+                                                <rect key="frame" x="0.0" y="90" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="BPy-V1-6Id"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="5">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qez-PH-v4Z"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWd-RO-BOL">
+                                                <rect key="frame" x="0.0" y="180" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="JQw-Yf-h8c"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="8">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="13o-UJ-d12"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qY8-C3-RL2">
+                                                <rect key="frame" x="0.0" y="270" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="lSF-GK-CUa"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="0">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hq8-Dn-Tc8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYd-EB-mrH">
+                                                <rect key="frame" x="0.0" y="360" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="IJF-Wg-ymM"/>
+                                                </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <imageReference key="image" image="phone.fill" catalog="system" symbolScale="large"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_call:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lYM-oB-3SY"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Rcg-DC-jYE">
+                                        <rect key="frame" x="180" y="0.0" width="75" height="435"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bL-tJ-nTp">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="CMB-sQ-KDy"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="3">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="px2-fE-MBp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIR-F7-ac6">
+                                                <rect key="frame" x="0.0" y="90" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="TyU-v3-NGf"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="6">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T2Y-UV-MB7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2L1-Sd-HoN">
+                                                <rect key="frame" x="0.0" y="180" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="5nO-wb-7kW"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="9">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w2H-WG-lHQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mk-g6-Fl5">
+                                                <rect key="frame" x="0.0" y="270" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="XMg-JF-2vD"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="#">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btn_s:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cwF-93-jl8"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Apn-Ct-7Q3">
+                                                <rect key="frame" x="0.0" y="360" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="edQ-Md-iaz"/>
+                                                    <constraint firstAttribute="height" constant="75" id="f8y-5B-arD"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="V4O-UY-gMo">
+                                <rect key="frame" x="69" y="109" width="255" height="0.0"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4n6-Ya-TIi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="B1f-Sg-sKh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4n6-Ya-TIi" secondAttribute="bottom" constant="174" id="D71-Dz-c2J"/>
+                            <constraint firstItem="V4O-UY-gMo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="HsK-Jv-qmP"/>
+                            <constraint firstItem="V4O-UY-gMo" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4n6-Ya-TIi" secondAttribute="trailing" id="doR-Qg-Ldk"/>
+                            <constraint firstItem="V4O-UY-gMo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4n6-Ya-TIi" secondAttribute="leading" id="eDO-lu-GPX"/>
+                            <constraint firstItem="V4O-UY-gMo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zST-3H-tYS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="HStackView" destination="4n6-Ya-TIi" id="TvK-oB-GBC"/>
+                        <outlet property="numberLabel" destination="V4O-UY-gMo" id="GeE-k8-9ro"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-124" y="25"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GRy-ut-kR5">
+            <objects>
+                <viewController id="5px-h7-ImZ" customClass="ViewController" customModule="autolayout_stackview_tutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lCI-4z-Tma">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mGy-f1-j2k">
+                                <rect key="frame" x="56.666666666666657" y="209" width="280" height="480"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Zub-fg-LhQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="480"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvu-oC-SDr" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="Xuk-0O-wwT"/>
+                                                    <constraint firstAttribute="width" constant="80" id="pDP-8O-3pM"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="1">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbD-Im-qdR" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="100" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="Dzc-ir-DHH"/>
+                                                    <constraint firstAttribute="height" constant="80" id="qYp-8g-x0k"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="4">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWI-0T-7mN" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="200" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="5Y7-hh-3Ov"/>
+                                                    <constraint firstAttribute="height" constant="80" id="65K-tK-vwB"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="7">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEC-4L-BCk" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="300" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="BvU-3g-ifF"/>
+                                                    <constraint firstAttribute="height" constant="80" id="k8J-1K-afM"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="✽">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ix-lS-SPC">
+                                                <rect key="frame" x="0.0" y="400" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9Or-el-nPP">
+                                        <rect key="frame" x="100" y="0.0" width="80" height="480"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBB-ec-CCg" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="HXx-nq-7KS"/>
+                                                    <constraint firstAttribute="width" constant="80" id="qRo-KH-YZA"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="2">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pK4-aB-VvS" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="100" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="CqX-ft-gn2"/>
+                                                    <constraint firstAttribute="width" constant="80" id="ghW-qN-SOj"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="5">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oai-xQ-0dz" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="200" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="7VQ-56-mnu"/>
+                                                    <constraint firstAttribute="height" constant="80" id="Ye6-OE-SPA"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="8">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5M-bl-VtP" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="300" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="KyH-vP-Ndx"/>
+                                                    <constraint firstAttribute="height" constant="80" id="VWp-7D-CWn"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="0">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDG-r5-gqS" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="400" width="80" height="80"/>
+                                                <color key="backgroundColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="R7i-ZU-kKA"/>
+                                                    <constraint firstAttribute="width" constant="80" id="fyN-Zj-HtH"/>
+                                                </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="phone.fill" catalog="system">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XnE-hT-V3b">
+                                        <rect key="frame" x="200.00000000000003" y="0.0" width="79.999999999999972" height="480"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhL-am-H6I" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="CK5-XZ-drZ"/>
+                                                    <constraint firstAttribute="height" constant="80" id="IoM-Rd-DMN"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="3">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLk-ul-hUw" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="100" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="6iE-Wi-JZF"/>
+                                                    <constraint firstAttribute="width" constant="80" id="dGR-pD-LKs"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="6">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75k-ie-WMu" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="200" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="iVo-5b-rBU"/>
+                                                    <constraint firstAttribute="width" constant="80" id="wj4-A9-Ah8"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="9">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJG-hx-w5r" customClass="CircleButton" customModule="autolayout_stackview_tutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="300" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="5gO-Pm-t4w"/>
+                                                    <constraint firstAttribute="width" constant="80" id="I27-gP-OHA"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="⌗">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxK-eW-XIz">
+                                                <rect key="frame" x="0.0" y="400" width="80" height="80"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgL-Z7-xma">
+                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="delete.backward.fill" catalog="system">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="deleteBtn:" destination="5px-h7-ImZ" eventType="touchUpInside" id="CFD-oI-mEZ"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="bgL-Z7-xma" firstAttribute="leading" secondItem="hxK-eW-XIz" secondAttribute="leading" id="Hlt-Co-3tT"/>
+                                                    <constraint firstAttribute="trailing" secondItem="bgL-Z7-xma" secondAttribute="trailing" id="guH-Lh-nV7"/>
+                                                    <constraint firstAttribute="bottom" secondItem="bgL-Z7-xma" secondAttribute="bottom" id="hjt-YQ-gc6"/>
+                                                    <constraint firstItem="bgL-Z7-xma" firstAttribute="top" secondItem="hxK-eW-XIz" secondAttribute="top" id="n8k-PV-NNl"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Dgq-7q-OLh">
+                                <rect key="frame" x="56.666666666666657" y="159" width="280" height="0.0"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="b7G-kQ-AVw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mGy-f1-j2k" firstAttribute="centerX" secondItem="lCI-4z-Tma" secondAttribute="centerX" id="ZCR-aN-g6f"/>
+                            <constraint firstItem="Dgq-7q-OLh" firstAttribute="trailing" secondItem="mGy-f1-j2k" secondAttribute="trailing" id="eao-mx-1r8"/>
+                            <constraint firstItem="mGy-f1-j2k" firstAttribute="top" secondItem="Dgq-7q-OLh" secondAttribute="bottom" constant="50" id="hyQ-kF-w2c"/>
+                            <constraint firstItem="Dgq-7q-OLh" firstAttribute="leading" secondItem="mGy-f1-j2k" secondAttribute="leading" id="k0s-FQ-hzv"/>
+                            <constraint firstItem="mGy-f1-j2k" firstAttribute="top" secondItem="b7G-kQ-AVw" secondAttribute="top" constant="150" id="yzZ-rn-Ztc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="deleteBtn" destination="bgL-Z7-xma" id="A6F-nE-fMC"/>
+                        <outlet property="phoneCallBtn" destination="IDG-r5-gqS" id="f0C-ZV-m7r"/>
+                        <outlet property="phoneNumberLabel" destination="Dgq-7q-OLh" id="0pi-iM-UwS"/>
+                        <outletCollection property="phoneNumberBtns" destination="hvu-oC-SDr" collectionClass="NSMutableArray" id="P5X-6p-C5G"/>
+                        <outletCollection property="phoneNumberBtns" destination="gBB-ec-CCg" collectionClass="NSMutableArray" id="SSc-7M-jGW"/>
+                        <outletCollection property="phoneNumberBtns" destination="uhL-am-H6I" collectionClass="NSMutableArray" id="Bka-RA-RBS"/>
+                        <outletCollection property="phoneNumberBtns" destination="HbD-Im-qdR" collectionClass="NSMutableArray" id="p5d-aq-eXE"/>
+                        <outletCollection property="phoneNumberBtns" destination="pK4-aB-VvS" collectionClass="NSMutableArray" id="rvJ-Eq-cej"/>
+                        <outletCollection property="phoneNumberBtns" destination="nLk-ul-hUw" collectionClass="NSMutableArray" id="C0o-18-vnw"/>
+                        <outletCollection property="phoneNumberBtns" destination="LWI-0T-7mN" collectionClass="NSMutableArray" id="WtM-sU-dQf"/>
+                        <outletCollection property="phoneNumberBtns" destination="Oai-xQ-0dz" collectionClass="NSMutableArray" id="HdY-Oq-eIa"/>
+                        <outletCollection property="phoneNumberBtns" destination="75k-ie-WMu" collectionClass="NSMutableArray" id="ER0-bf-aLf"/>
+                        <outletCollection property="phoneNumberBtns" destination="IEC-4L-BCk" collectionClass="NSMutableArray" id="66S-Ub-2Zd"/>
+                        <outletCollection property="phoneNumberBtns" destination="M5M-bl-VtP" collectionClass="NSMutableArray" id="qTF-23-Fc1"/>
+                        <outletCollection property="phoneNumberBtns" destination="oJG-hx-w5r" collectionClass="NSMutableArray" id="deI-eB-x0g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="80t-eE-LcM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="815" y="25"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="75k-ie-WMu">
+            <size key="intrinsicContentSize" width="45.666666666666664" height="54.666666666666664"/>
+        </designable>
+        <designable name="HbD-Im-qdR">
+            <size key="intrinsicContentSize" width="45" height="54.666666666666664"/>
+        </designable>
+        <designable name="IDG-r5-gqS">
+            <size key="intrinsicContentSize" width="60.333333333333336" height="43.666666666666664"/>
+        </designable>
+        <designable name="IEC-4L-BCk">
+            <size key="intrinsicContentSize" width="47.333333333333336" height="54.666666666666664"/>
+        </designable>
+        <designable name="LWI-0T-7mN">
+            <size key="intrinsicContentSize" width="43" height="54.666666666666664"/>
+        </designable>
+        <designable name="M5M-bl-VtP">
+            <size key="intrinsicContentSize" width="45.333333333333336" height="54.666666666666664"/>
+        </designable>
+        <designable name="Oai-xQ-0dz">
+            <size key="intrinsicContentSize" width="45" height="54.666666666666664"/>
+        </designable>
+        <designable name="gBB-ec-CCg">
+            <size key="intrinsicContentSize" width="43.666666666666664" height="54.666666666666664"/>
+        </designable>
+        <designable name="hvu-oC-SDr">
+            <size key="intrinsicContentSize" width="39.666666666666664" height="54.666666666666664"/>
+        </designable>
+        <designable name="nLk-ul-hUw">
+            <size key="intrinsicContentSize" width="45.666666666666664" height="54.666666666666664"/>
+        </designable>
+        <designable name="oJG-hx-w5r">
+            <size key="intrinsicContentSize" width="46.666666666666664" height="54.666666666666664"/>
+        </designable>
+        <designable name="pK4-aB-VvS">
+            <size key="intrinsicContentSize" width="44.333333333333336" height="54.666666666666664"/>
+        </designable>
+        <designable name="uhL-am-H6I">
+            <size key="intrinsicContentSize" width="44.666666666666664" height="54.666666666666664"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="delete.backward.fill" catalog="system" width="128" height="102"/>
+        <image name="phone.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
