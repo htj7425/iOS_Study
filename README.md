@@ -3,7 +3,7 @@
 
 ||||
 |------|:--:|---|
-|**[UpDownGame](https://github.com/htj7425/iOS_Study/tree/main/Yagom_iOS/Yagom_Slider)**|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/5f7e5eb6-c1bd-4f75-99f1-d88620c7e1c8" width="350" height="200">|Slider, UIAlert 사용한 UpDownGame <br><br> 게임 패배, 승리시 alert message <br><br> 좌측상단 정보버튼 클릭시 개발자 정보 Modal로 표시 <br><br> 우측 상단 reset 버튼|
+|**[UpDownGame](https://github.com/htj7425/iOS_Study/tree/main/Yagom_iOS/Yagom_Slider)**|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/5f7e5eb6-c1bd-4f75-99f1-d88620c7e1c8" width="350" height="175">|Slider, UIAlert 사용한 UpDownGame <br><br> 게임 패배, 승리시 alert message <br><br> 좌측상단 정보버튼 클릭시 개발자 정보 Modal로 표시 <br><br> 우측 상단 reset 버튼|
 |**[HaulTabBar](https://github.com/htj7425/iOS_Study/tree/main/Haul_iOS/HaulTabBar)**|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/5b9632fd-54d3-40e3-ab17-9e7cd1bbe393" width="175" height="350">|TabBar 사용한 뷰이동 <br><br> 화면이동 할 때 Sliding Animation 효과 <br><br> [화면이동 애니메이션 코드 참고 여러가지 방법있음](https://github.com/you6878/HowlTabBarAnim/blob/master/HowlTabBar/AnimUtils.swift)|
 |**[HaulScrollView](https://github.com/htj7425/iOS_Study/tree/main/Haul_iOS/HaulScrollView)**|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/a8c4461f-019d-4272-90a1-c26f795ad549" width="175" height="350">|ScrollView 사용 <br><br> 사진 넘길 때 Sliding Animation 효과|
 |**[Dynamic_ScrollView](https://github.com/htj7425/iOS_Study/tree/main/JungDaeRee/UIKit_scrollview_tutorial)**|<img src = "https://github.com/htj7425/iOS_Study/assets/43903354/36434b75-1162-4586-bf6a-957707a412b8" width="175" height="350">|ScrollView 사용 <br><br> Label의 길이에 따라 ScrollView의 size가 Dynamic하게 조절됨|
